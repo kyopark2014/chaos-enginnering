@@ -125,8 +125,11 @@ Mostly cultural
 
 
 
+## AWS Fault Injection Simulator
 
+상용에서 실험(Experiment)를 수행할때 제어 및 가드레일을 제공할 수 있습니다. 이를 통해 자동으로 롤백(rolling back)하거나 특정조건에 실험을 중지할 수 있습니다. 
 
+<img width="1116" alt="image" src="https://user-images.githubusercontent.com/52392004/204071973-2261fe87-2f72-45fc-8210-e5b5d6fbec63.png">
 
 
 ## Reference
