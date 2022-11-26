@@ -71,7 +71,7 @@ Chaos engineering은 어플리케이션을 신뢰성을 확보할 수 있도록,
 
 
 
-### Usuful Commends
+### Useful Commends
 
 #### Simple 
 
