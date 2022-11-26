@@ -1,6 +1,12 @@
 # Chaos Enginnering
 
-It introduces the chaos engineering for AWS.
+## 카오스 엔지니어링 정의
+
+[PRINCIPLES OF CHAOS ENGINEERING](https://principlesofchaos.org/)와 같이 상용에서 비정상인 조건에서 시스템의 능력을 유지하기 위하여 사전에 시스템을 실험하는 훈련입니다. 
+
+"Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
+
+
 
 ## Reference
 
@@ -11,3 +17,5 @@ It introduces the chaos engineering for AWS.
 [DevOps 문화](https://www.redhat.com/ko/topics/devops)
 
 [DevOps와 SRE 비교](https://www.redhat.com/ko/topics/devops/what-is-sre)
+
+[PRINCIPLES OF CHAOS ENGINEERING](https://principlesofchaos.org/)
