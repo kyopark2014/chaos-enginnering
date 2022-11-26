@@ -6,6 +6,16 @@
 
 "Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
 
+2011년 netflix blog를 통해 알려진것처럼 scheduled된 agent가 아래의 동작을 수행하였고, 2015년 중반에 [PRINCIPLES OF CHAOS ENGINEERING](https://principlesofchaos.org/)으로 정리됩니다. 
+
+- Shut down services randomly
+- Slow down performances
+- Check conformity 
+- Break an entire region
+- Integrate with spinnaker (CI/CD)
+
+
+
 
 
 ## Reference
