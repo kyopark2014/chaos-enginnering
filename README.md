@@ -49,6 +49,15 @@ Chaos engineering은 어플리케이션을 신뢰성을 확보할 수 있도록,
 
 ## Chaos Engineering
 
+주입되는 
+
+
+Inject events that simulate 
+- Hardware failures, like servers dying
+- Software failures, like malformed responses
+- Nonfailure events, like spikes in traffic or scaling events
+Any event capable of disrupting steady state
+
 <img width="541" alt="image" src="https://user-images.githubusercontent.com/52392004/204069568-45be3593-0e77-416f-a63e-c78b52ba3948.png">
 
 
