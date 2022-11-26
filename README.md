@@ -19,6 +19,41 @@ Chaos engineering은 어플리케이션을 신뢰성을 확보할 수 있도록,
 
 - Chaos engineering is NOT about breaking things randomly without a purpose; chaos engineering is about breaking things in a controlled environment and through well-planned experiments in order to build confidence in your application to withstand turbulent conditions.
 
+## Prerequisites to chaos engineering
+
+### Software 
+- Certificate expiration
+- Memory leaks
+- Licenses
+- Versioning
+
+### Infrastructure
+- Redundancy (multi-AZ)
+- Self-healing
+- Isolation (bulkheads)
+- Infrastructure as code
+
+### Application
+- Timeouts
+- Retries w/backoff
+- Exception handling
+- Circuit breakers
+- Load shedding
+
+### Operations
+- Human operators
+- Monitoring and observability
+- Incident response
+- Measure, measure, measure
+
+
+## Chaos Engineering
+
+<img width="541" alt="image" src="https://user-images.githubusercontent.com/52392004/204069568-45be3593-0e77-416f-a63e-c78b52ba3948.png">
+
+
+
+
 
 
 ## Reference
