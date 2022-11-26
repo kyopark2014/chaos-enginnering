@@ -19,6 +19,7 @@ Chaos engineering은 어플리케이션을 신뢰성을 확보할 수 있도록,
 
 - Chaos engineering is NOT about breaking things randomly without a purpose; chaos engineering is about breaking things in a controlled environment and through well-planned experiments in order to build confidence in your application to withstand turbulent conditions.
 
+<!--
 ## Prerequisites to chaos engineering
 
 ### Software 
@@ -45,7 +46,7 @@ Chaos engineering은 어플리케이션을 신뢰성을 확보할 수 있도록,
 - Monitoring and observability
 - Incident response
 - Measure, measure, measure
-
+-->
 
 ## Chaos Engineering
 
@@ -59,6 +60,56 @@ Chaos engineering은 어플리케이션을 신뢰성을 확보할 수 있도록,
 - Software failures, like malformed responses
 - Nonfailure events, like spikes in traffic or scaling events
 
+## Commends
+
+#### Simple 
+
+$ docker stop 94a214bbeebd
+
+#### DDos
+
+```java
+$ wrk -t12 -c400 -d30s http://127.0.0.1/api/health
+```
+
+#### Burn CPU with Stress(–ng)
+
+[stress-ng](https://wiki.ubuntu.com/Kernel/Reference/stress-ng)
+
+```java
+$ stress-ng --cpu 0--cpu-method matrixprod -t 60s
+```
+
+#### Adding latency to the network
+
+```java
+$ tc qdisc add dev eth0 root netem delay 300ms
+```
+
+#### Blocks DNS resolution
+
+```java
+$ iptables -A INPUT -p tcp -m tcp --dport 53 -j DROP
+```
+
+#### Other fun things to do
+- Fill up disk
+- Network packet loss (using traffic-shaping)
+- Network packet corruption (using traffic-shaping)
+- Kills random processes
+- Detach (force) all EBS volumes
+- Mess with /etc/hosts
+
+
+## Big challenges to chaos engineering
+
+Mostly cultural  
+
+- No time or flexibility to simulate disasters
+- Teams already spending all of its time fixing things
+- Can be very political
+- Might force deep conversations
+- Deeply invested in a specific technical roadmap (micro-services) that chaos engineering tests show is not as resilient to failures as originally predicted
 
 
 
