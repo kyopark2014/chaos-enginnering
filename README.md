@@ -15,7 +15,9 @@
 - Integrate with spinnaker (CI/CD)
 
 
+Chaos engineering은 어플리케이션을 신뢰성을 확보할 수 있도록, 제어된 환경(Controlled environment)에서 잘 계획된 실험(experiment)을 통하여, 각 요소(thing)을 강제로 종료시킵니다.
 
+- Chaos engineering is NOT about breaking things randomly without a purpose; chaos engineering is about breaking things in a controlled environment and through well-planned experiments in order to build confidence in your application to withstand turbulent conditions.
 
 
 
