@@ -48,7 +48,11 @@ Chaos engineering은 어플리케이션을 신뢰성을 확보할 수 있도록,
 - Measure, measure, measure
 -->
 
+
+
 ## Chaos Engineering
+
+### Phases of chaos engineering
 
 
 <img width="541" alt="image" src="https://user-images.githubusercontent.com/52392004/204069568-45be3593-0e77-416f-a63e-c78b52ba3948.png">
@@ -60,7 +64,15 @@ Chaos engineering은 어플리케이션을 신뢰성을 확보할 수 있도록,
 - Software failures, like malformed responses
 - Nonfailure events, like spikes in traffic or scaling events
 
-## Commends
+### Two rules to remember
+
+#### Don't brame people for mistakes
+
+#### There is no ioslated "cause" of an accident
+
+
+
+### Usuful Commends
 
 #### Simple 
 
