@@ -55,8 +55,7 @@ Chaos engineering은 어플리케이션을 신뢰성을 확보할 수 있도록,
 ### Phases of chaos engineering
 
 
-<img width="541" alt="image" src="https://user-images.githubusercontent.com/52392004/204069568-45be3593-0e77-416f-a63e-c78b52ba3948.png">
-
+<img src="https://user-images.githubusercontent.com/52392004/204069568-45be3593-0e77-416f-a63e-c78b52ba3948.png" width="600">
 
 주입되는 이벤트(Injected Event)는 state state를 망가트리는 아래와 같은 상황을 시뮬레이션 합니다. 
 
